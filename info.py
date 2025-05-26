@@ -86,7 +86,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', '')
+MSG_ALRT = environ.get('MSG_ALRT', ' ᴅᴀᴛᴛᴇʙᴀʏᴏ ​!! ')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support Chat Link with https://
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -138,9 +138,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "".format(FQDN)
+    URL = "https://curious-whippet-gojomovies-99e7931e.koyeb.app/".format(FQDN)
 else:
-    URL = "".format(FQDN)
+    URL = "https://curious-whippet-gojomovies-99e7931e.koyeb.app/".format(FQDN)
 
 
 REACTIONS = ["👍", "❤", "🔥", "🥰", "👏", "😁", "🤔", "😱", "🎉", "🤩", "🤡", "❤‍🔥", "🌚", "🤣", "⚡", "🏆", "🤨", "😐", "😈", "🤓", "👻", "😇", "🤝", "🤗", "🫡", "🎅", "🎄", "🆒", "😘", "😎"]
