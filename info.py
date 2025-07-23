@@ -54,7 +54,7 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Patrick_Bateman_r')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Patrick_Botz')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002846994597')) 
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002370466536')) 
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002846994597'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', False)
